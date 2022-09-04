@@ -1,14 +1,77 @@
-/* main background: #F5F5F5 */
-/* header background: #FFFFFF */
-/* footer background: #2F303A */
+:root{
+   --primary-text-color: #212121;
+   --secondary-text-color: #757575;
+   --primary-hover-color: #2196F3;
+   --logo-color-blue: #2196F3;
+   --logo-color-black: #000000;
+   --primary-white-color: #FFFFFF; 
+   --email-telephone-text-color: rgba(255, 255, 255, 0.6)
 
-/* logo color: 
-   black: #000000
-   blue: #2196F3 */  
+}
 
-/* nav and <h> color: #212121 */ 
-/* decribtion <p> color: #757575 */
+body {
+   background-color: var(--primary-white-color);
+   color: var(--primary-text-color);
 
-/* footer text: address #FFFFFF; tel+mail rgba(255, 255, 255, 0.6) */
-/* hover&focus: #2196F3 */
+   font-family: Roboto, sans-serif;
+   letter-spacing: 0.03em;
 
+}
+
+.list {
+   list-style: none
+}
+
+/* Header */
+
+.logo {
+   color: var(--logo-color-black);
+
+   font-family: Raleway, sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.2;
+   text-decoration: none;
+}
+
+.logo span {
+   color: var(--logo-color-blue)
+}
+
+
+
+
+
+
+
+/* site-nav */
+
+.site-nav .link {
+   color: #212121
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+   color: #2196F3
+}
+
+.contact .link {
+   color: #757575
+}
+.contact .link:hover,
+.contact .link:focus {
+   color: #2196F3
+}
+
+/* Hero */
+
+
+/* Sections */
+
+.section h2,
+.section h3 {
+color: #212121
+}
+
+.section p {
+color: #757575
+}
