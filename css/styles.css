@@ -111,6 +111,8 @@ background: var(--hero-background-color)
    text-align: center;
    letter-spacing: 0.06em;
 
+   cursor: pointer;
+
    margin: 0 auto;
    display: block;
    
