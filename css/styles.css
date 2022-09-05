@@ -120,8 +120,10 @@ background: var(--hero-background-color)
 
 .button:focus,
 .button:hover {
+
 background-color: var(--primary-hover-color);
 color: var(--primary-white-color);
+
 }
 
 /* benefit section */
