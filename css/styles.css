@@ -242,6 +242,11 @@ background-color: var(--primary-hover-color);
 color: var(--primary-white-color);
 }
 
+.filter-button.current {
+background-color: var(--primary-hover-color);
+color: var(--primary-white-color);
+}
+
 .portfolio-link {
    text-decoration: none;
 }
