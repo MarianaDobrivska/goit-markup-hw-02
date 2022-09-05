@@ -214,3 +214,48 @@ background: var(--team-background-color);
 .footer-section {
    background: var(--hero-background-color);
 }
+
+
+/* PORTFOLIO PAGE */
+
+.portfolio {
+   background-color: var(--secondary-background-color);
+}
+
+.filter-button {
+   font-family: inherit;
+   font-style: inherit;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
+   text-align: center;
+   
+   cursor: pointer;
+   
+   background-color: var(--team-background-color);
+   color: var(--primary-text-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+background-color: var(--primary-hover-color);
+color: var(--primary-white-color);
+}
+
+.portfolio-link {
+   text-decoration: none;
+}
+
+.portfolio-example-title {
+   color: var(--primary-text-color);
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em;
+}
+
+.portfolio-example-text {
+   color: var(--secondary-text-color);
+   font-size: 16px;
+   line-height: 1.87;
+}
