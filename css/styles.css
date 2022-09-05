@@ -19,7 +19,7 @@ body {
 }
 
 .list {
-   list-style: none
+   list-style: none;
 }
 
 /* Header */
@@ -38,40 +38,36 @@ body {
    color: var(--logo-color-blue)
 }
 
-
-
-
-
-
-
-/* site-nav */
+/* nav design */
 
 .site-nav .link {
-   color: #212121
+color: var(--primary-text-color);
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
 }
-.site-nav .link:hover, 
+
+.site-nav .link:hover,
 .site-nav .link:focus {
-   color: #2196F3
+   color: var(--primary-hover-color)
 }
+
+
+/* contact design */
 
 .contact .link {
-   color: #757575
+   color: var(--secondary-text-color);
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   text-decoration: none;
 }
+
 .contact .link:hover,
 .contact .link:focus {
-   color: #2196F3
-}
-
-/* Hero */
-
-
-/* Sections */
-
-.section h2,
-.section h3 {
-color: #212121
-}
-
-.section p {
-color: #757575
+   color: var(--primary-hover-color)
 }
