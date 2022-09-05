@@ -136,3 +136,26 @@ background: var(--hero-background-color)
    line-height: 1.16;
    text-align: center;
 }
+
+/* team section */
+
+.team-section-header {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+}
+
+.team-section-title {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.19;
+   text-align: center;
+}
+
+.team-section-text {
+   color: var(--secondary-text-color);
+   font-size: 16px;
+   line-height: 1.19;
+   text-align: center;
+}
