@@ -25,11 +25,9 @@ body {
    list-style: none;
 }
 
-/* Header */
+/* Logo */
 
 .logo {
-   color: var(--logo-color-black);
-
    font-family: Raleway, sans-serif;
    font-weight: 700;
    font-size: 26px;
@@ -40,6 +38,16 @@ body {
 .logo span {
    color: var(--logo-color-blue)
 }
+
+.header.logo {
+   color: var(--logo-color-black)
+}
+
+.footer.logo {
+   color: var(--primary-white-color)
+}
+
+/* Header */
 
 /* nav design */
 
@@ -161,7 +169,7 @@ text-align: center;
    text-align: center;
 }
 
-/* background for benefit&works&team section */
+/* background for main section */
 
 .benefit-section,
 .works-section {
@@ -170,4 +178,39 @@ text-align: center;
 
 .team-section {
 background: var(--team-background-color);
+}
+
+/* footer */
+
+.address {
+   color: var(--primary-white-color);
+   font-size: 14px;
+   line-height: 1.7;
+   font-style: normal;
+   text-decoration: none;
+}
+
+.address:hover,
+.address:focus {
+   color: var(--primary-white-color);
+}
+
+.mail,
+.telephone {
+   color: var(--email-telephone-text-color);
+   font-size: 14px;
+   line-height: 1.7;
+   font-style: normal;
+   text-decoration: none;
+}
+
+.mail:hover,
+.telephone:hover,
+.mail:focus,
+.telephone:focus {
+   color: var(--email-telephone-text-color);
+}
+
+.footer-section {
+   background: var(--hero-background-color);
 }
