@@ -5,7 +5,8 @@
    --logo-color-blue: #2196F3;
    --logo-color-black: #000000;
    --primary-white-color: #FFFFFF; 
-   --email-telephone-text-color: rgba(255, 255, 255, 0.6)
+   --email-telephone-text-color: rgba(255, 255, 255, 0.6);
+   --hero-background-color: #2F303A;
 
 }
 
@@ -76,4 +77,34 @@ text-decoration: none;
 }
 
 /* hero */
+
+.main-hero {
+background: var(--hero-background-color)
+}
+
+.hero-title {
+   color: var(--primary-white-color);
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+}
+
+.button {
+   font-family: inherit;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.88;
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.06em;
+
+   margin: 0 auto;
+   display: block;
+   
+   background-color: var(--primary-hover-color);
+   color: var(--primary-white-color);
+}
 
