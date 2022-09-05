@@ -55,6 +55,9 @@ text-decoration: none;
    color: var(--primary-hover-color)
 }
 
+.site-nav .link.current {
+   color: var(--primary-hover-color);
+}
 
 /* contact design */
 
@@ -71,3 +74,6 @@ text-decoration: none;
 .contact .link:focus {
    color: var(--primary-hover-color)
 }
+
+/* hero */
+
