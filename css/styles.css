@@ -159,3 +159,12 @@ text-align: center;
    line-height: 1.19;
    text-align: center;
 }
+
+/* background for benefit&works section */
+
+.benefit-section,
+.works-section {
+   background: var(--secondary-background-color);
+}
+
+
